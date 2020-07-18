@@ -2,7 +2,7 @@
 
 :root {
   --mainBrown: #2d1ef1;
-  --mainYellow: #ff9e09;
+  --mainYellow: rgb(255, 158, 9);
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
   --mainDark: #222;
@@ -29,3 +29,50 @@ h6 {
   color: var(--mainDark);
   font-size: 2rem;
 }
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  background-image: center;
+  background-size: cover;
+}
+.btn-yellow {
+  background-color: white;
+  color: black;
+}
+.btn-yellow:hover {
+  background-color: black;
+  color: white;
+}
+.footer {
+  background: black;
+}
+.footer {
+  height: 9rem;
+  background: #222;
+  text-align: center;
+  font-size: 2rem;
+  display: grid;
+  place-items: center;
+}
+.footer h4 {
+  margin-top: 0.5rem;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.footer h4 span {
+  color: var(--clr-primary-5);
+}
+.footer-links {
+  margin: 0 auto 1rem auto;
+}
+.footer .social-link {
+  color: white;
+}
+.footer .social-link:hover {
+  color: blue;
+}
+
